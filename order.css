@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('C:\Users\pc\OneDrive\Desktop\Td- HTML\image\pattern-background-desktop.svg');
+    background-color: #cccccc; 
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 500px;
+    height: 480px;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Red Hat Display';
+  
+}
+
+.order{
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px; 
+}
+.order img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.order-information{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.order-information h1{
+    color:  hsl(223, 47%, 23%) ;
+}
+.order-information p{
+    font-size: 16px;
+    color:  hsl(224, 23%, 55%);
+    line-height: 25px;
+    margin-top: 10px;
+
+}
+.plan-box{
+    background-color:  hsl(225, 100%, 98%);;
+    border-radius: 12px;
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+    margin: auto;
+   
+   
+}
+.order-details{
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+    justify-content: space-between;
+    text-align: left;
+}
+.order-details a{
+   color:hsl(223, 47%, 23%);
+   font-weight: 900;
+}
+.order-details a:hover{
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+}
+.payment{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    padding: 10px 0;
+    border-radius: 12px;
+    text-align: center;
+    margin: 30px;
+    font-weight: 800;
+}
+.payment:hover{
+    background-color: hsl(224, 23%, 55%);
+    transition: 3ms ease;
+    cursor: pointer;
+}
+.no-order{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.no-order:hover{
+   color: hsl(223, 47%, 23%);
+    transition: 3ms ease;
+    cursor: pointer;
+}
+.author  a{
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+.author a:hover{
+    color:hsl(223, 47%, 23%);
+    transition: 200ms;
+    border: 1px solid #fff;
+    font-weight: 500;
+    border-radius: 1px;
+    background-color:black;
+
+}
